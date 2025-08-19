@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  @font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/GeosansLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    background-color: #fffaf0;
+    font-family: 'MyCustomFont', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+#invoice-container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #800000;
+  }
+  
+  h2 {
+      color: #0f346c;
+  }
+  
+  p {
+      font-size: 1.2vw;
+      margin: 5px 0;
+      color:#800000
+  }
+  
+  #download-invoice {
+      margin-top: 20px;
+      background-color: #800000;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  #download-invoice:hover {
+      background-color: #5c0000;
+  }
+  
